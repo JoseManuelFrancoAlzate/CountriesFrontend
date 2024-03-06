@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url("https://www.chiquipedia.com/images/fondos-pantalla-videojuegos-mario-1024.jpg?phpMyAdmin=9ea091c51a5aa3cf876fb3cf0a5f7f3d");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/11/planeta-tierra-2873795.jpg?tf=3840x");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  height: '100vh';
+  width: '100vw';
+}
+
+

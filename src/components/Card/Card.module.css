@@ -1,0 +1,36 @@
+.card{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    border-radius:10px;
+      flex-wrap:wrap;
+      background-color: rgb(0, 0, 0);
+
+}
+
+
+.card:hover {
+  background-color: #1100ffc9;
+  color: beige;
+}
+
+
+.imgCss{
+    display: block;
+    width: 300px;
+    height: 200px;
+  }
+
+  .LetraCards{
+    color:rgb(209, 17, 17);
+    background-color: rgb(5, 5, 5);
+    border-radius: 15px
+
+   }
+
+   .LetraCards:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(13, 16, 187);
+    border-radius: 15px
+
+   }

@@ -1,0 +1,97 @@
+.card{
+    border: 1px solid black;
+    width: 500px;
+    height: fit-content;
+    border-radius:15px;
+      flex-wrap:wrap;
+      display: flex;
+      flex-direction: column;
+      margin: 1rem auto;
+      box-shadow: 0 3px 7px -1px rgba(#000, .1);
+      background: rgb(0, 0, 0);
+      line-height: 1.4;
+      font-family: sans-serif;
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 0;
+}
+
+.letraErr{
+  font-size: 1.4rem;
+  color: rgb(255, 146, 4);
+  font-family: fantasy;
+  font-size: 15px;
+}
+
+
+.button{
+  color:aqua;
+  background-color: blueviolet;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+
+.letraColor{
+  color: #fa0707;
+  text-shadow:
+    0 0 7px #f8af42,
+    0 0 10px #f3cf02,
+    0 0 21px #eaee0f,
+    0 0 42px rgb(192, 221, 27),
+    0 0 82px rgb(130, 218, 15),
+    0 0 92px rgb(2, 15, 11),
+    0 0 102px rgb(140, 0, 255),
+    0 0 151px rgb(89, 0, 255);}
+
+
+    .letras{
+      color:#ffffff;
+      font-family: cursive;
+
+    }
+
+    .buttonA {
+      background-color: #0004ff; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .inputCss{
+      border: none;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      padding: 15px;
+      background-color: #a1d1f5;
+      color: #64696d;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+      margin-bottom: 30px;
+      border-radius: 20px;
+    }
+
+    .optionCss{
+      background-color: #f7acac;
+      color:rgb(255, 255, 255);
+      position: relative;
+      border: 1px solid black;
+      flex-direction: row;
+      border-radius: 50px;
+      flex-wrap:wrap;
+      gap:1em;
+      justify-content: space-around;  
+      padding: 10px;
+      margin: 1rem;
+ 
+
+    }
+
+
+    .x{
+      background-color: #fa0707;
+    }

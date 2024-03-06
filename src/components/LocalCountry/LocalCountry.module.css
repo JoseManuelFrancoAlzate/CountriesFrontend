@@ -1,0 +1,101 @@
+.homeHeader {
+    background-image: url("https://www.todofondos.net/wp-content/uploads/112-fondos-de-pantalla-de-super-mario-bros.-hd-imagenes-de-fondo-fondo-de-pantalla.-wallpaper-2k-de-mario-bros.jpg");
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+            
+  }
+
+
+  .LetraCards{
+    color:rgb(255, 0, 0);
+    background-color: rgb(238, 255, 50);
+    width: 50%;
+    margin-left: -20%;
+    border-radius: 15px
+   }
+
+   .LetraCardss{
+    color:rgb(217, 255, 0);
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: -20%;
+    border-radius: 15px
+   }
+
+.imgCss{
+  display: block;
+  border-radius: 50px
+}
+
+.card{
+    border: radius 100px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.295) 0px 0px;
+    border-radius: 15px;
+    border: 1px solid black;
+    flex-direction: row;
+    border-radius: 50px;
+    flex-wrap:wrap;
+    gap:1em;
+    justify-content: space-around;  
+    padding: 50px;
+    margin: 1rem;
+    display:inline-flex;
+}
+
+.cardLogo{
+    padding: 10px;
+    display: block;
+  width: 170%;
+  margin-left: -50%;
+  margin-right: 100%;
+}
+
+.cardContent{
+    color: white
+    
+}
+
+.tabla{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+
+}
+
+.letraColor{
+  color: #fa0707;
+  text-shadow:
+    0 0 7px #f8af42,
+    0 0 10px #f3cf02,
+    0 0 21px #eaee0f,
+    0 0 42px rgb(192, 221, 27),
+    0 0 82px rgb(130, 218, 15),
+    0 0 92px rgb(2, 15, 11),
+    0 0 102px rgb(140, 0, 255),
+    0 0 151px rgb(89, 0, 255);}
+
+
+    .button {
+    background-color: #ff0000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+.letras{
+  color:#eaee0f;
+
+}

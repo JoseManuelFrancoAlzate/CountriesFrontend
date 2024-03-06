@@ -1,0 +1,107 @@
+.homeHeader {
+    background-image: url("https://incp.org.co/wp-content/uploads/2017/10/Paises.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+
+
+.container{
+
+  border: 1px solid black;
+  flex-direction: row;
+  border-radius: 50px;
+  flex-wrap:wrap;
+  gap:1em;
+  justify-content: space-around;  
+  padding: 50px;
+  margin: 1rem;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-column-gap: .5rem;
+  grid-row-gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display:inline-flex;   
+width: 100px;
+height: 100px;
+
+ }
+
+
+/*  
+display: inline-flex;
+*/
+
+/*
+  justify-content: space-around;  
+  padding: 1rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  margin: 1rem;
+
+  display:grid;   
+  grid-template-columns: repeat(5, 1fr); 
+  grid-column-gap: .5rem;
+  grid-row-gap: 2rem;
+  justify-items: center;
+*/
+
+.searchB{
+  height: 32px;
+  border: 1px solid #feacae;
+  background-color: #fff;
+  overflow: hidden;
+  font-size: 14px;
+  color: #04fa41;
+  border-width: 0;
+  background-color: rgb(186, 255, 180);}
+
+  .botones {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #2c0d04;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+ 
+  }
+
+  .selectCss{
+    
+     background-color: #acf7be;
+     color:darkblue;
+     position: relative;
+     top: -200px; left: -20px;
+     border: 1px solid black;
+     flex-direction: row;
+     border-radius: 50px;
+     flex-wrap:wrap;
+     gap:1em;
+     justify-content: space-around;  
+     padding: 10px;
+     margin: 1rem;
+       }
+
+
+       .S{
+
+        background-color: #f7acac;
+        position: static;
+       }
+  
